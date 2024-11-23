@@ -1,0 +1,34 @@
+body {
+    font-family: cursive;
+    color: black;
+    background-image: linear-gradient(to right,#a5357a,#778891,#5c3e76);
+}
+
+.link-nav{
+    text-decoration: none;
+    color: rgb(200, 143, 200);
+    box-shadow: 5px 5px 5px 0 rgb(143, 79, 79) ;
+    padding: 5px;
+
+}
+
+.link-header{
+    text-decoration: none;
+    color: rgb(243, 179, 248);
+}
+
+nav{
+     display: flex;
+     justify-content: space-around;
+    
+}
+
+.social{
+    margin: 40px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
