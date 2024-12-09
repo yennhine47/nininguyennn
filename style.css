@@ -1,7 +1,7 @@
 body {
     font-family: cursive;
     color: black;
-    background-image: linear-gradient(to right,#a5357a,#778891,#5c3e76);
+    background-image: linear-gradient(to right,#f0a8d4,#b2dcf3,#cab3de);
 }
 
 .link-nav{
@@ -14,7 +14,10 @@ body {
 
 .link-header{
     text-decoration: none;
-    color: rgb(243, 179, 248);
+    color: rgb(190, 7, 95);
+}
+.link-header:hover{
+    color: rgb(68, 117, 232)
 }
 
 nav{
@@ -31,4 +34,17 @@ nav{
 footer{
     display: flex;
     justify-content: space-around;
+}
+body {
+    font-family: sans-serif;
+}
+
+.link-header:hover{
+    color: rgb(155, 108, 50);
+    background-color: aqua;
+}
+
+h1{
+    color: rgb(173, 25, 102);
+    ;
 }
